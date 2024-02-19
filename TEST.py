@@ -1,7 +1,8 @@
 list1 = ["test", "Hello", "World", "123", "example", "CV", "hp;"]
-result_array = []
-for i in list1:
-    if len(i) <= 3:
-        result_array.append(i)
-        
-print(result_array)
+def array(list, k):
+    result_array = []
+    for i in list:
+        if len(i) <= k:
+            result_array.append(i)
+    return result_array
+print(array(list1, 3))
