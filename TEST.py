@@ -1,4 +1,4 @@
-list1 = ["test", "Hello", "World", "123", "example", "CV", "hp;"]
+list1 = ["jytf", "Hello", "World", "123", "example", "CV", "hp;"]
 def array(list, k):
     result_array = []
     for i in list:
